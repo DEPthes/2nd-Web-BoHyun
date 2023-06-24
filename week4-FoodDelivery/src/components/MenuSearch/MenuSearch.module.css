@@ -1,0 +1,11 @@
+.search {
+    max-width: 30rem;
+    width: 90%;
+    height: 3rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 0px;
+    display: flex;
+
+}
