@@ -51,11 +51,9 @@ const Meals = () => {
   ];
   return (
     <MenuProvider>
-      <React.Fragment>
         <MealsSummary  />
         <MenuSearch meals={DUMMY_MEALS} />
         <AvailableMeals meals={DUMMY_MEALS} />
-      </React.Fragment>
     </MenuProvider>
   );
 };
