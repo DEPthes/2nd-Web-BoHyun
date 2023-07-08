@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 
 const SearchBar = ({ onLocationChange }) => {
   const [query, setQuery] = useState('');
-
+  // useRef로 바꿔서 해보기
   const handleSearch = () => {
     const apiKey = 'AIzaSyAHTj8H7omSvxjE1v-hO1LwNtlRdnZuO1I';
     const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${query}&key=${apiKey}`;

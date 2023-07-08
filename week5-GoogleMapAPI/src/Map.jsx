@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from 'react';
 
 const Map = ({ location }) => {
   const mapRef = useRef(null);
-
+  // useEffect 쓰지 말고 해보기
   useEffect(() => {
     const mapOptions = {
       center: location,
