@@ -28,6 +28,10 @@ const Counter = () => {
     dispatch(counterActions.multiply(2));
   };
 
+  const resetHandler = () => {
+    dispatch(counterActions.resetCounter());
+  };
+
   console.log(showCounter);
 
   return (
@@ -39,6 +43,7 @@ const Counter = () => {
         <button onClick={increaseHandelr}>Increment by 5</button>
         <button onClick={decrementHandler}>decrement</button>
         <button onClick={multiplyHandler}>Multiply by 2</button>
+        <button onClick={resetHandler}>reset</button>
       </div>
       <button onClick={toggleCounterHandler}>Toggle Counter</button>
     </main>
